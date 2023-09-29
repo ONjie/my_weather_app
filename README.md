@@ -8,7 +8,11 @@ My weather app is an application that offers a range of features to help you sta
 
 3. Multi-Day Forecasts: View weather forecasts for the next 7 days, helping you plan ahead.
 
-4. Multi-hourly Forecasts: View weather forcasts for the next 24 hours. 
+4. Multi-hourly Forecasts: View weather forcasts for the next 24 hours.
+
+5. You can add and delete your favorite locations.
+
+6. You can get real-time weather updates about your favorite locations.
 
 
 
