@@ -1,16 +1,20 @@
-# weather_app
+# My Weather App
 
-A new Flutter project.
+My weather app is an application that offers a range of features to help you stay informed about the weather conditions:
 
-## Getting Started
+1. Real-time Weather Updates: Get up-to-the-minute weather forecasts, including temperature, humidity and more.
 
-This project is a starting point for a Flutter application.
+2. Location-Based Forecast: Receive weather information specific to your current location or any location you choose.
 
-A few resources to get you started if this is your first Flutter project:
+3. Multi-Day Forecasts: View weather forecasts for the next 7 days, helping you plan ahead.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. Multi-hourly Forecasts: View weather forcasts for the next 24 hours. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## RESULTS:
+
+
+
+https://github.com/ONjie/my_weather_app/assets/70782172/18d26b88-891d-4c85-91c3-c25a2f680206
+
