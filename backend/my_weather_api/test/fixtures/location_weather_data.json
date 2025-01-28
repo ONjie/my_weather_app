@@ -1,0 +1,14 @@
+{
+    "location": {
+        "name": "Banjul",
+        "country": "Gambia",
+        "localtime_epoch": 1737504398,
+        "localtime": "2025-01-22 00:06"
+    },
+    "current": {
+        "temp_c": 21.3,
+        "condition": {
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        }
+    }
+}
