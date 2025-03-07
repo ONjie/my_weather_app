@@ -15,3 +15,12 @@ class WeatherApiFailure extends Failure {
 class OtherFailure extends Failure {
   const OtherFailure({required super.message});
 }
+
+class OpenWeatherMapApiFailure extends Failure{
+  const OpenWeatherMapApiFailure({required super.message});
+  
+}
+
+class PlacesApiFailure extends Failure {
+  const PlacesApiFailure({required super.message});
+}

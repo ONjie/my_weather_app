@@ -1,0 +1,15 @@
+{
+    "location_name": "banjul",
+    "current_weather": {
+        "timezone_offset": 0,
+       "current": {
+        "dt": 1739934864,
+        "temp": 21.15,
+        "weather": [
+            {
+                "icon": "01n"
+            }
+        ]
+    }
+    }
+}

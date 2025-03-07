@@ -1,0 +1,58 @@
+{
+    "hourly": [
+        {
+            "dt": 1739919600,
+            "temp": 21.95,
+            "humidity": 66,
+            "weather": [
+                {
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "dt": 1739919600,
+            "temp": 21.95,
+            "humidity": 66,
+            "weather": [
+                {
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        }
+    ],
+    "daily": [
+        {
+            "dt": 1739883600,
+            "sunrise": 1739863686,
+            "sunset": 1739905959,
+            "temp": {
+                "min": 19.15,
+                "max": 23.06
+            },
+            "weather": [
+                {
+                   "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "dt": 1739883600,
+            "sunrise": 1739863686,
+            "sunset": 1739905959,
+            "temp": {
+                "min": 19.15,
+                "max": 23.06
+            },
+            "weather": [
+                {
+                   "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        }
+    ]
+}

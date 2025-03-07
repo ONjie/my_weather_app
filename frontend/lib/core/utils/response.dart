@@ -1,0 +1,1 @@
+const noInternetConnection = "No internet connection";

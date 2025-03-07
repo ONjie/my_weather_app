@@ -20,5 +20,5 @@ My weather app is an application that offers a range of features to help you sta
 
 
 
-https://github.com/ONjie/my_weather_app/assets/70782172/18d26b88-891d-4c85-91c3-c25a2f680206
+
 

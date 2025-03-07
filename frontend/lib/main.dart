@@ -1,14 +1,16 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_app/BLoC/Weather%20Bloc/weather_bloc.dart';
+import 'package:weather_app/core/utils/theme/theme.dart';
+import 'package:weather_app/core/utils/theme/bloc/theme_state.dart';
+import 'core/utils/theme/bloc/theme_bloc.dart';
+import 'features/locations/presentation/bloc/locations_bloc.dart';
+import 'features/weather/presentation/bloc/weather_bloc.dart';
+import 'features/weather/presentation/screens/home_screen.dart';
+import 'injection_container.dart' as di;
 
-import 'BLoC/Locations Bloc/locations_bloc.dart';
-import 'Presentation/Screens/home_screen.dart';
-
-
-void main()async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await di.init();
   runApp(const MyApp());
 }
 
@@ -20,19 +22,24 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<WeatherBloc>(create: (context) => WeatherBloc(),),
-        BlocProvider<LocationsBloc>(create: (context) => LocationsBloc(),),
-      ],
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: CupertinoColors.white),
-          useMaterial3: true,
+        BlocProvider(
+          create: (context) => di.locator<WeatherBloc>(),
         ),
-        home: const HomeScreen(),
-      ),
+        BlocProvider(
+          create: (context) => di.locator<LocationsBloc>(),
+        ),
+        BlocProvider(create: (context) => di.locator<ThemeBloc>()),
+      ],
+      child: BlocBuilder<ThemeBloc, ThemeState>(builder: (context, state) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Flutter Demo',
+          theme: lightMode,
+          darkTheme: darkMode,
+          themeMode: state.themeMode ,
+          home: const HomeScreen(),
+        );
+      }),
     );
   }
 }
-

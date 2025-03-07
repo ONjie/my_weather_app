@@ -1,0 +1,13 @@
+{
+    "features":[
+       {
+        "properties":{
+            "country": "The Gambia",
+            "city": "Banjul",
+            "formatted": "Banjul, The Gambia",
+            "lon": -16.575646,
+            "lat": 13.45535
+        }
+       }
+    ]
+}

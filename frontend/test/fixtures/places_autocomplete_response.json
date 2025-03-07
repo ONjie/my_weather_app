@@ -1,0 +1,22 @@
+  {
+      "features": [
+        {
+          "properties": {
+            "city": "Banjul",
+            "country": "Gambia",
+            "formatted": "Banjul, Gambia",
+            "lat": 13.4531,
+            "lon": -16.5775
+          }
+        },
+        {
+          "properties": {
+            "city": "Banjul",
+            "country": "Gambia",
+            "formatted": "Banjul, Gambia",
+            "lat": 13.4531,
+            "lon": -16.5775
+          }
+        }
+      ]
+    }
